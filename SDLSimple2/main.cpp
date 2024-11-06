@@ -87,9 +87,12 @@ constexpr char SPRITESHEET_FILEPATH[] = "assets/peach.png",
                     TILESHEET_FILEPATH[] = "assets/tiles.png",
                     FONT_FILEPATH[] = "assets/font1.png";
         
+// Original soudn effects
+//constexpr char BGM_FILEPATH[] = "assets/crypto.mp3",
+//           SFX_FILEPATH[] = "assets/bounce.wav";
 
-constexpr char BGM_FILEPATH[] = "assets/crypto.mp3",
-           SFX_FILEPATH[] = "assets/bounce.wav";
+constexpr char BGM_FILEPATH[] = "assets/zenmusic.mp3",
+           SFX_FILEPATH[] = "assets/jump2.wav";
 
 constexpr int NUMBER_OF_TEXTURES = 1;
 constexpr GLint LEVEL_OF_DETAIL  = 0;
